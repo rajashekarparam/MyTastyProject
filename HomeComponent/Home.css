@@ -1,0 +1,50 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.home-heading{
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Roboto";
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+    color: turquoise;
+}
+.tag-heading{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Roboto";
+    justify-content: center;
+    align-items: center;
+    color: turquoise;
+
+}
+.orders{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Roboto";
+    background-color:blue;
+    color: #ffffff;
+    border-radius: 8px;
+    
+}
+.table-text{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Roboto";
+    color: turquoise;
+    align-self: center;
+}

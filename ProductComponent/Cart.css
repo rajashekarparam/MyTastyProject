@@ -1,0 +1,85 @@
+.cart-item-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-image: linear-gradient(to bottom, #de1480,#574bd6,#36c736);
+    width: 100%;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+.image{
+    width: 310px;
+}
+.items-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    box-shadow: 1px 1px 1px 1px;
+
+}
+
+.item-category{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Roboto";
+
+}
+
+.item-category-one{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Roboto";
+
+}
+.item-name{
+    color: #b342f5;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Roboto";
+
+}
+.quantity{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Roboto";
+    background-color: #b342f5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+.prize{
+    color: #f542b6;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Roboto";
+
+}
+.order-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #e81ab8,#de45d9,#a855d9);
+    height: 410px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.button-one{
+    border-radius: 8px;
+    background-image: linear-gradient(to right,turquoise,#3d48db,#686fcc );
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Roboto"
+}

@@ -1,0 +1,46 @@
+.products-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    flex-wrap: wrap;
+   
+}
+.image{
+    width: 310px;
+}
+.items-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    box-shadow: 1px 1px 1px 1px;
+
+}
+
+.item-category{
+    color: #f542b6;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Roboto";
+
+}
+.item-name{
+    color: #b342f5;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Roboto";
+
+}
+.prize{
+    color: #f542b6;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Roboto";
+
+}

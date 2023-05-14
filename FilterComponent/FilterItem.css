@@ -1,0 +1,19 @@
+.filter-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-filter{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: "Roboto";
+    color:blueviolet;
+}
+
+.select-container{
+    width: 160px;
+    background-color: antiquewhite;
+
+}
